@@ -1,0 +1,144 @@
+body {
+
+    background-color: rgb(144, 78, 85);
+    color: rgb(243, 125, 7);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 80px;
+    align-items: center;
+
+ }
+
+
+h1 {
+	color: rgb(31, 97, 141);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 32px;
+
+
+}
+	
+
+ h2 {
+	color: rgb(216, 59, 11);
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 15px;
+ 
+}
+
+a {
+	text-decoration: none;
+	color: rgb(31, 97, 141);
+
+
+}
+
+div .card {
+	background-color: rgb(255, 230, 238);
+	text-align: center;
+	align-items: center;
+	border-radius: 6px;
+	box-shadow: 10px 5px 5px rgb(158, 114, 101);
+	padding: 15px;
+	margin: 30px; 
+
+
+}
+
+
+.container {
+	text-align: center;
+	align-items: center;
+	width: 900px;
+	margin: 20px auto;
+	padding: auto;
+	display: center;
+
+}
+
+
+
+li {
+	font-size: 30px;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+
+}
+
+
+ul {
+	padding-left: 0px;
+
+}
+
+
+@media(max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media(max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media(max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+li a {
+	color: rgb(31, 97, 141);
+	font-size: 40px;
+
+}
+
+
+li a:hover {
+	color:orange;
+
+
+}
+
+.img-circle {
+	border-radius: 40%;
+}
+
+
+.btn-blue {
+	background-color: rgb(31, 97, 141);
+	color: white;
+	padding: 5px 15px;
+	border-radius: 4px;
+
+}
+
+
+.btn-blue: hover{
+	color: orange;
+	background-color: black;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
